@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="container">
+        <h3>Dividing Input Tab</h3>
+        <form>
+            <label for="text" class="form-label">Text</label>
+            <div class="input-group">
+                <input type="text" id="text" class="form-control"/>
+                <input type="text" id="text2" class="form-control"/>
+
+            </div>
+            <button>Submit</button>
+        </form>
+    </div><br><br>
+    <div class="container">
+        <h3>Grouping with Input</h3>
+        <form>
+            <label for="text" class="form-label">Text</label>
+            <div class="input-group">
+                <div class="input-group-text">$</div>
+                <input type="number" id="text" class="form-control"/>
+                <div class="input-group-text">.00</div>
+                <input type="number" id="text" class="form-control"/>
+
+            </div>
+            <button>Submit</button>
+        </form>
+    </div><br><br>
+    <div class="container">
+        <h3>Input with button attached</h3>
+        <form>
+            <label for="text" class="form-label">Text</label>
+            <div class="input-group">
+                <div class="input-group-text">$</div>
+                <input type="number" id="text" class="form-control"/>
+                <button class="btn btn-primary">+</button>
+
+            </div>
+            <button>Submit</button>
+        </form>
+    </div><br><br>
+    <div class="container">
+        <h3>Floating Input</h3>
+        <form>
+            <div class="form-floating">
+                <input type="email" id="email" class="form-control" placeholder="Write your email"/>
+                <label for="email" class="form-label">Email</label>
+            </div>
+            <button>Submit</button>
+        </form>
+    </div><br><br>
+    <div class="container">
+        <h3>Input Required</h3>
+        <form>
+            <div class="form-floating">
+                <input type="email" id="email" class="form-control" placeholder="Write your email" required/>
+                <label for="email" class="form-label">Email</label>
+            </div>
+            <button>Submit</button>
+        </form>
+    </div><br><br>
+    <div class="container">
+        <h3>Input Valid</h3>
+        <form>
+            <div class="form-floating">
+                <input type="email" id="email" class="form-control is-valid" placeholder="Write your email"/>
+                <label for="email" class="form-label">Email</label>
+            </div>
+            <button>Submit</button>
+        </form>
+    </div><br><br>
+    <div class="container">
+        <h3>Input Invalid</h3>
+        <form>
+            <div class="form-floating">
+                <input type="email" id="email" class="form-control is-invalid" placeholder="Write your email"/>
+                <label for="email" class="form-label">Email</label>
+            </div>
+            <button>Submit</button>
+        </form>
+    </div><br><br>
+
+</body>
+</html>
